@@ -1,0 +1,13 @@
+node_modules
+npm-debug.json
+npm-debug.log
+npm-debug.log.*
+COMMANDS
+.npmrc
+.DS_Store
+/public
+/server
+package-lock.json
+.idea
+.vscode
+lib

@@ -1,0 +1,21 @@
+{
+  "name": "@mv/domain",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./lib/index.js",
+  "scripts": {
+    "lib:js": "babel src --out-dir lib",
+    "lib": "npm run lib:js",
+    "prepublishOnly": "npm run lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "7",
+    "@s-ui/mockmock": "2",
+    "babel-preset-sui": "3"
+  },
+  "dependencies": {
+    "@s-ui/domain": "2",
+    "just-merge": "1.1.0",
+    "path-to-regexp": "1.5.3"
+  }
+}
